@@ -1,0 +1,15 @@
+# pyproject.toml
+[project]
+name = "smn_support_nodes" 
+description = "A set of nodes for ComfyUI to support extended use."
+version = "1.0.1" # Custom Node version. Must be semantically versioned.
+license = { file = "LICENSE" }
+dependencies  = ["opencv-python", "imageio-ffmpeg"] # Filled in from requirements.txt
+
+[project.urls]
+Repository = "https://github.com/SummonTheCat/smn_support_nodes"
+
+[tool.comfy]
+PublisherId = "summonthecat" # TODO (fill in Publisher ID from Comfy Registry Website).
+DisplayName = "smn_support_nodes" # Display name for the Custom Node. Can be changed later.
+Icon = "" # SVG, PNG, JPG or GIF (MAX. 800x400px)
