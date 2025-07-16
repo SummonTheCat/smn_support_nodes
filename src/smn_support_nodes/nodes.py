@@ -6,6 +6,7 @@ from .nodes_input.node_input_int import SsnInputInt
 from .nodes_input.node_input_float import SsnInputFloat
 from .nodes_input.node_input_color import SsnInputColor  
 from .nodes_input.node_input_font import SsnInputFont
+from .nodes_input.node_input_json import SsnInputJSON
 
 # Convert Imports
 from .nodes_convert.node_convert_int import SsnConvInt
@@ -40,6 +41,7 @@ NODE_CLASS_MAPPINGS = {
     "SsnInputFloat": SsnInputFloat,
     "SsnInputColor": SsnInputColor,
     "SsnInputFont": SsnInputFont,
+    "SsnInputJSON": SsnInputJSON,
 
     "SsnConvInt": SsnConvInt,
     "SsnConvFloat": SsnConvFloat,
@@ -68,6 +70,7 @@ NODE_DISPLAY_NAME_MAPPINGS = {
     "SsnInputFloat": "[SSN] Input Float",
     "SsnInputColor": "[SSN] Input Color",
     "SsnInputFont": "[SSN] Input Font",
+    "SsnInputJSON": "[SSN] Input JSON",
 
     "SsnConvInt": "[SSN] Convert Int To Others",
     "SsnConvFloat": "[SSN] Convert Float To Others",
