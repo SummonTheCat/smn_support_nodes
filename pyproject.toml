@@ -2,7 +2,7 @@
 [project]
 name = "smn_support_nodes" 
 description = "A set of nodes for ComfyUI to support extended use."
-version = "1.0.2" # Custom Node version. Must be semantically versioned.
+version = "1.0.4" # Custom Node version. Must be semantically versioned.
 license = { file = "LICENSE" }
 dependencies  = ["opencv-python", "imageio-ffmpeg"] # Filled in from requirements.txt
 

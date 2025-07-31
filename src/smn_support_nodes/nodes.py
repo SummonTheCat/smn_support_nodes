@@ -26,6 +26,7 @@ from .nodes_json.node_json_getvalueas import SsnJsonValueAs
 
 # Prep Imports
 from .nodes_prep.node_prep_trimscale import SsnPrepTrimScale
+from .nodes_prep.node_prep_crop import SsnPrepCrop
 from .nodes_prep.node_prep_flattenalpha import SsnPrepFlattenAlpha
 from .nodes_prep.node_prep_batchappend import SsnPrepAppendBatch
 from .nodes_prep.node_prep_batchreverse import SsnPrepReverseBatch
@@ -56,6 +57,7 @@ NODE_CLASS_MAPPINGS = {
     "SsnJSONGetValueAs": SsnJsonValueAs,
 
     "SsnPrepTrimScale": SsnPrepTrimScale,
+    "SsnPrepCrop": SsnPrepCrop,
     "SsnPrepFlattenAlpha": SsnPrepFlattenAlpha,
     "SsnPrepAppendBatch": SsnPrepAppendBatch,
     "SsnPrepReverseBatch": SsnPrepReverseBatch,
@@ -85,6 +87,7 @@ NODE_DISPLAY_NAME_MAPPINGS = {
     "SsnJSONGetValueAs": "[SSN] JSON Get Value As",
 
     "SsnPrepTrimScale": "[SSN] Prep Trim Scale",
+    "SsnPrepCrop": "[SSN] Prep Crop",
     "SsnPrepFlattenAlpha": "[SSN] Prep Flatten Alpha",
     "SsnPrepAppendBatch": "[SSN] Prep Append Batch",
     "SsnPrepReverseBatch": "[SSN] Prep Reverse Batch",
